@@ -89,6 +89,8 @@ const CTA: React.FC = () => {
                   src="https://typebot.co/ag-ncia-aplica-es-automatik-labs-1-0ig2tvn"
                   style={{ border: 'none', width: '100%', height: '600px' }}
                   title="Typebot - Automatik Labs"
+                  allow="microphone; camera"
+                  sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-popups-to-escape-sandbox"
                 />
               </div>
             </div>
